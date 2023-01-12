@@ -17,29 +17,109 @@ body {
 
 .top-body {
     background-color: #1f2930;
+    height: 400px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.top-body .left {
+    width: 475px;
+}
+
+.top-body img {
+    width: 450px;
+    height: 200px;
 }
 
 .top-body h1{
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
+    height: 75px;
 }
 
 .top-body p {
     font-size: 18px;
     color: #e5e7eb;
+    height: 50px;
 }
 
-.top-body .left {
-    width: 300px;
-    height: 100x;
+.top-body input {
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 4px 32px;
 }
 
-.top-body img {
-    width: 300px;
-    height: 200px;
+.mid-top {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mid-top .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;   
+}
+
+.mid-top .box {
+    border-radius: 16px;
+    padding: 4px;
+    width: 150px;
+    height: 150px;
+}
+
+.box-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-text {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.box-text {
+    border-radius: 16px;
+    padding: 4px;
+    width: 150px;
+    height: 70px;
+}
+
+.mid-bottom {
+    height: 400px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2037;
+    width: 40%;
+}
+
+.author {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2037;
+    font-weight: bold;
+    width: 40%;
+    padding-left: 1200px;
+    margin-top: -50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #e5e7eb
 }
 
 ul {
@@ -50,12 +130,5 @@ ul {
 
 li {
     font-size: 18px;
-    color: #e5e7eb
-}
-
-.footer {
-    display: flex;
-    justify-content: center;
-    background-color: #1f2937;
     color: #e5e7eb
 }
