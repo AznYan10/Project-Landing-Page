@@ -115,11 +115,55 @@ body {
     margin-top: -50px;
 }
 
+.bottom-body {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-box {
+    background-color: #3882f6;
+    width: 60%;
+    height: 40%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.call-box .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.call-box h1 {
+    margin: 0;
+    color: white;
+}
+
+.call-box p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.705);
+}
+
+.call-box input {
+    align-self: center;
+    background-color: #3882f6;
+    border-color: white;
+    color: white;
+    height: 20%;
+    width: 8%;
+    border-radius: 8px;
+}
+
 .footer {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #1f2937;
-    color: #e5e7eb
+    color: #e5e7eb;
+    height: 50px;
 }
 
 ul {
